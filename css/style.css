@@ -1,0 +1,213 @@
+body
+{
+    font-size: 14px;
+}
+
+@font-face
+{
+    font-family: Tahoma;
+
+    src: url("fonts/Tahoma.ttf");
+}
+
+.main-wrapper
+{
+    width: 1280px;
+    min-height: 1060px;
+    margin: 0 auto;
+    background-image: url("../img/back.jpg");
+    background-repeat: no-repeat;
+}
+
+.wrapper
+{
+    width: 1000px;
+    min-height: 1029px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.wrapper .google_head
+{
+    margin-left: -140px;
+}
+
+.header:after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo
+{
+    float: left;
+    margin-left: 29px;
+    margin-top: 10px;
+}
+
+.logo p {
+    margin-left: 75px;
+    margin-top: -65px;
+    color: #329ab3;
+    font-size: 12px;
+}
+
+.contacts
+{
+    float: right;
+    margin-right: 33px;
+    margin-top: 13px;
+}
+
+.contacts p
+{
+    color: #329ab3;
+}
+
+.contacts p:nth-child(1)
+{
+    margin-bottom: 5px;
+}
+
+.top-menu
+{
+    float: right;
+    margin-top: 105px;
+    margin-right: -145px;
+}
+
+.top-menu li
+{
+    display: inline-block;
+    margin-bottom: 14px;
+}
+
+.top-menu img
+{
+    margin-right: 10px;
+}
+
+.top-menu a
+{
+    color: #329ab3;
+    font-size: 10px;
+}
+
+.top-menu p
+{
+    margin-left: 8px;
+}
+
+.beach-img
+{
+    border-top: 2px solid #128aa7;
+    border-bottom: 2px solid #138aa7;
+}
+
+.main-menu
+{
+    height: 30px;
+    background-color: #303030;
+}
+
+.main-menu li
+{
+    display: inline-block;
+    position: relative;
+    margin-top: 7px;
+    margin-left: 65px;
+}
+
+.main-menu a
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+/*
+.main-menu .menu
+{
+    display: block;
+    position: absolute;
+}
+
+.main-menu .menu .submenu
+{
+    position: absolute;
+    top: 30px;
+    display: none;
+}
+
+.main-menu .menu li:hover .submenu
+{
+    display: block;
+}
+*/
+.main-menu .menu li:nth-child(2)
+{  
+    width: 85px;
+    background-image: url("../img/triangles.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+}
+
+.main-menu .menu li:nth-child(3)
+{  
+    width: 50px;
+    background-image: url("../img/triangles.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+}
+
+.main-menu .menu li:nth-child(4)
+{  
+    width: 70px;
+    background-image: url("../img/triangles.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+}
+
+.content:after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.left-column
+{
+    float: left;
+    width: 190px;
+    background-color: #edeef0;
+    padding-left: 17px;
+    line-height: 23px;
+    height: 544px;
+}
+
+.left-column h3
+{
+    font-size: 18px;
+    text-align: center;
+}
+
+.right-column
+{
+    float: right;
+    width: 190px;
+    background-color: #edeef0;
+    padding-left: 17px;
+    line-height: 23px;
+    height: 544px;
+}
+
+.right-column h3
+{
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer p
+{
+    text-align: center;
+    margin-top: 8px;
+}
