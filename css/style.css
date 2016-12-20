@@ -27,11 +27,15 @@ body
     margin: 0 auto;
 
     background-color: #fff;
+<<<<<<< HEAD
     box-shadow:
      1px 0 7px 3px #09576f,
     -1px 0 7px 3px #09576f,
      0 3px rgb(0,0,0);
 
+=======
+    box-shadow: -3px 3px 3px #659ba0;
+>>>>>>> origin/master
 }
 
 .wrapper .google_head
@@ -176,6 +180,7 @@ body
 
     background: #303030;
     box-shadow: 0 5px 5px #808080;
+<<<<<<< HEAD
 }
 
 .main-menu .menu-drop li
@@ -235,6 +240,32 @@ body
     background-repeat: no-repeat;
     margin-left: 63px;
     margin-top: 4px;    
+=======
+}
+
+.main-menu .menu-drop li
+{
+    line-height: 20px;
+
+    margin: 0;
+    margin-left: 11px;
+}
+
+.main-menu .menu li:hover .menu-drop
+{
+    display: block;
+}
+
+.main-menu .menu li:nth-child(2) .drop_list,
+.main-menu .menu li:nth-child(3) .drop_list,
+.main-menu .menu li:nth-child(4) .drop_list
+{
+    width: 5px;
+
+    background-image: url('../img/triangles.png');
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+>>>>>>> origin/master
 }
 
 .content:after
