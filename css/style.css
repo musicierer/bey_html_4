@@ -7,7 +7,7 @@ body
 {
     font-family: Tahoma;
 
-    src: url('fonts/Tahoma.ttf');
+    src: url("fonts/Tahoma.ttf");
 }
 
 .main-wrapper
@@ -15,8 +15,7 @@ body
     width: 1280px;
     min-height: 1060px;
     margin: 0 auto;
-
-    background-image: url('../img/back.jpg');
+    background-image: url("../img/back.jpg");
     background-repeat: no-repeat;
 }
 
@@ -25,17 +24,7 @@ body
     width: 1000px;
     min-height: 1029px;
     margin: 0 auto;
-
-    background-color: #fff;
-<<<<<<< HEAD
-    box-shadow:
-     1px 0 7px 3px #09576f,
-    -1px 0 7px 3px #09576f,
-     0 3px rgb(0,0,0);
-
-=======
-    box-shadow: -3px 3px 3px #659ba0;
->>>>>>> origin/master
+    background-color: #ffffff;
 }
 
 .wrapper .google_head
@@ -45,36 +34,30 @@ body
 
 .header:after
 {
+    content: '';
     display: table;
     clear: both;
-
-    content: '';
 }
 
 .logo
 {
     float: left;
-
-    margin-top: 10px;
     margin-left: 29px;
+    margin-top: 10px;
 }
 
-.logo p
-{
-    font-size: 12px;
-
-    margin-top: -63px;
+.logo p {
     margin-left: 75px;
-
+    margin-top: -65px;
     color: #329ab3;
+    font-size: 12px;
 }
 
 .contacts
 {
     float: right;
-
-    margin-top: 13px;
     margin-right: 33px;
+    margin-top: 13px;
 }
 
 .contacts p
@@ -90,7 +73,6 @@ body
 .top-menu
 {
     float: right;
-
     margin-top: 105px;
     margin-right: -145px;
 }
@@ -98,31 +80,23 @@ body
 .top-menu li
 {
     display: inline-block;
-
     margin-bottom: 14px;
 }
 
 .top-menu img
 {
-    margin-right: 9px;
+    margin-right: 10px;
 }
 
 .top-menu a
 {
-    font-size: 10px;
-
     color: #329ab3;
+    font-size: 10px;
 }
 
 .top-menu p
 {
-    margin-left: 9px;
-}
-
-.top-menu-item
-{
-    position: relative;
-    right: 7px;
+    margin-left: 8px;
 }
 
 .beach-img
@@ -134,193 +108,102 @@ body
 .main-menu
 {
     height: 30px;
-
     background-color: #303030;
-}
-
-.main-menu
-{
-    box-shadow: 0 5px 5px #808080;
 }
 
 .main-menu li
 {
-    position: relative;
-
     display: inline-block;
-
+    position: relative;
+    vertical-align: middle;
     margin-top: 7px;
     margin-left: 65px;
-
-    vertical-align: middle;
 }
 
 .main-menu a
 {
+    color: #ffffff;
     text-decoration: none;
-
-    color: #fff;
 }
 
-.main-menu .menu li
-{
-    position: relative;
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 14px;
+  
+  position: relative;
 }
 
-.main-menu .menu-drop
-{
-    position: absolute;
-    top: 23px;
-    left: -14px;
-
-    display: none;
-
-    width: 130px;
-    margin: 0;
-
-    background: #303030;
-    box-shadow: 0 5px 5px #808080;
-<<<<<<< HEAD
+.menu__item:hover > .menu-drop {
+  visibility: visible;
+  opacity: 1;
 }
 
-.main-menu .menu-drop li
-{
-    line-height: 20px;
-
-    margin: 0;
-    margin-left: 11px;
+.main-menu .menu li:nth-child(2)
+{  
+    width: 85px;
+    background-image: url("../img/triangles.png");
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
 }
 
-.main-menu .menu li:hover .menu-drop
-{
-    display: block;
-}
-
-.drop_list_1,
-.drop_list_2,
-.drop_list_3,
-{
+.main-menu .menu li:nth-child(3)
+{  
     width: 50px;
-}
-
-.drop_list_1:before 
-{
-    content: '';
-    display: table;
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background-image: url('../img/triangles.png');
+    background-image: url("../img/triangles.png");
     background-repeat: no-repeat;
-    margin-left: 77px;
-    margin-top: 4px;    
+    background-position: 100% 0%;
 }
 
-.drop_list_2:before 
-{
-    content: '';
-    display: table;
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background-image: url('../img/triangles.png');
+.main-menu .menu li:nth-child(4)
+{  
+    width: 70px;
+    background-image: url("../img/triangles.png");
     background-repeat: no-repeat;
-    margin-left: 43px;
-    margin-top: 4px;    
-}
-
-.drop_list_3:before 
-{
-    content: '';
-    display: table;
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background-image: url('../img/triangles.png');
-    background-repeat: no-repeat;
-    margin-left: 63px;
-    margin-top: 4px;    
-=======
-}
-
-.main-menu .menu-drop li
-{
-    line-height: 20px;
-
-    margin: 0;
-    margin-left: 11px;
-}
-
-.main-menu .menu li:hover .menu-drop
-{
-    display: block;
-}
-
-.main-menu .menu li:nth-child(2) .drop_list,
-.main-menu .menu li:nth-child(3) .drop_list,
-.main-menu .menu li:nth-child(4) .drop_list
-{
-    width: 5px;
-
-    background-image: url('../img/triangles.png');
-    background-repeat: no-repeat;
-    background-position: 100% 0;
->>>>>>> origin/master
+    background-position: 100% 0%;
 }
 
 .content:after
 {
+    content: '';
     display: table;
     clear: both;
-
-    content: '';
 }
 
 .left-column
 {
-    line-height: 23px;
-
-    z-index: -1;
-
     float: left;
-
     width: 190px;
-    height: 544px;
-    padding-left: 17px;
-
     background-color: #edeef0;
+    padding-left: 17px;
+    line-height: 23px;
+    height: 544px;
 }
 
 .left-column h3
 {
     font-size: 18px;
-
     text-align: center;
 }
 
 .right-column
 {
-    line-height: 23px;
-
     float: right;
-
     width: 190px;
-    height: 544px;
-    padding-left: 17px;
-
     background-color: #edeef0;
+    padding-left: 17px;
+    line-height: 23px;
+    height: 544px;
 }
 
 .right-column h3
 {
     font-size: 18px;
-
     text-align: center;
 }
 
 .footer p
 {
-    margin-top: 8px;
-
     text-align: center;
+    margin-top: 8px;
 }
