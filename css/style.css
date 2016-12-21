@@ -25,18 +25,13 @@ body
     width: 1000px;
     min-height: 1029px;
     margin: 0 auto;
-
+    
     background-color: #fff;
     box-shadow:
      1px 0 7px 3px #09576f,
     -1px 0 7px 3px #09576f,
      0 3px rgb(0,0,0);
 
-}
-
-.wrapper .google_head
-{
-    margin-left: -140px;
 }
 
 .header:after
@@ -51,7 +46,7 @@ body
 {
     float: left;
 
-    margin-top: 10px;
+    margin-top: 48px;
     margin-left: 29px;
 }
 
@@ -69,7 +64,7 @@ body
 {
     float: right;
 
-    margin-top: 13px;
+    margin-top: 51px;
     margin-right: 33px;
 }
 
@@ -87,7 +82,7 @@ body
 {
     float: right;
 
-    margin-top: 105px;
+    margin-top: 143px;
     margin-right: -145px;
 }
 
@@ -123,6 +118,7 @@ body
 
 .beach-img
 {
+    
     border-top: 2px solid #128aa7;
     border-bottom: 2px solid #138aa7;
 }
@@ -136,6 +132,7 @@ body
 
 .main-menu
 {
+    position: relative;
     box-shadow: 0 5px 5px #808080;
 }
 
@@ -290,6 +287,7 @@ body
 .footer p
 {
     margin-top: 8px;
+    color: #ffffff;
 
     text-align: center;
 }
